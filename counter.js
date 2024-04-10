@@ -1,9 +1,9 @@
 export function setupCounter(element) {
-  let counter = 0;
+  let countern = 0;
   const setCounter = (count) => {
-    counter = count;
-    element.innerHTML = `count is ${counter}`;
+    countern = count;
+    element.innerHTML = `count is ${countern}`;
   };
-  element.addEventListener("click", () => setCounter(counter + 1));
+  element.addEventListener("click", () => setCounter(countern + 1));
   setCounter(0);
 }
